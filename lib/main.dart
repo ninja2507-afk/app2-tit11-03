@@ -68,8 +68,8 @@ class HomePage extends StatelessWidget {
 
                   CircleAvatar(
                     radius: 46,
-                    backgroundImage: const NetworkImage(
-                      'https://thaidigitalprint.com/wp-content/uploads/2025/06/anime-17.jpg.avif',
+                    backgroundImage: const AssetImage(
+                      'assets/avatar.jpg',
                     ),
                   ),
 
@@ -143,7 +143,7 @@ class HomePage extends StatelessWidget {
                   SizedBox(height: 4),
 
                   Text(
-                    'นักศึกษาแผนกเทคโนโลยีสารสนเทศ',
+                    'เด็ก IT ภาษาCodeโครตจะโหด แต่ภาษารักดันติดลบ',
                     style: TextStyle(
                       fontSize: 16,
                       color: Colors.black54,
